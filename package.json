@@ -1,0 +1,31 @@
+{
+  "name": "react-irc-client",
+  "version": "1.0.0",
+  "private": true,
+  "homepage": "/chat",
+  "scripts": {
+    "start": "node server.js",
+    "build": "react-scripts build",
+    "dev": "react-scripts start"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "irc-framework": "^3.1.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "^5.0.1",
+    "ws": "^8.18.0"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
